@@ -1,6 +1,4 @@
-# ============================================================
-# DEPENDENCIAS
-# ============================================================
+
 node_modules/
 npm-debug.log*
 yarn-debug.log*
@@ -10,15 +8,13 @@ pnpm-debug.log*
 .yarn/
 .pnpm-store/
 
-# ============================================================
-# SECRETOS Y CREDENCIALES (NUNCA SUBIR)
-# ============================================================
+
 .env
 .env.*
 !.env.example
 *.env
 
-# Cookies de YouTube / yt-dlp
+
 
 cookies.txt
 cookies*.txt
@@ -26,7 +22,7 @@ cookies*.txt
 *.cookies
 cookies.json
 
-# Claves, certificados y tokens
+
 *.pem
 *.key
 *.p12
@@ -45,9 +41,6 @@ service-account*.json
 client_secret*.json
 auth.json
 
-# ============================================================
-# LOGS Y ARCHIVOS DE EJECUCION
-# ============================================================
 logs/
 *.log
 pids/
@@ -56,9 +49,7 @@ pids/
 *.seed
 nohup.out
 
-# ============================================================
-# AUDIO / DESCARGAS TEMPORALES (yt-dlp, ffmpeg)
-# ============================================================
+
 downloads/
 audio/
 *.mp3
@@ -77,17 +68,13 @@ tmp/
 temp/
 *.tmp
 
-# ============================================================
-# BASES DE DATOS Y DATOS LOCALES
-# ============================================================
+
 *.sqlite
 *.sqlite3
 *.db
 *.db-journal
 
-# ============================================================
-# BUILD / COBERTURA
-# ============================================================
+
 dist/
 build/
 out/
@@ -95,9 +82,7 @@ coverage/
 .nyc_output/
 *.tsbuildinfo
 
-# ============================================================
-# SISTEMA OPERATIVO
-# ============================================================
+
 .DS_Store
 Thumbs.db
 ehthumbs.db
@@ -107,9 +92,7 @@ $RECYCLE.BIN/
 .directory
 .Trash-*
 
-# ============================================================
-# EDITORES E IDEs
-# ============================================================
+
 .vscode/
 .idea/
 *.swp
@@ -117,9 +100,6 @@ $RECYCLE.BIN/
 *.sublime-workspace
 *.sublime-project
 
-# ============================================================
-# BACKUPS Y COMPRIMIDOS
-# ============================================================
 *.bak
 *.orig
 *.old
@@ -130,9 +110,7 @@ $RECYCLE.BIN/
 *.tar.gz
 *.tgz
 
-# ============================================================
-# PM2 / DOCKER LOCAL
-# ============================================================
+
 .pm2/
 ecosystem.config.local.js
 docker-compose.override.yml

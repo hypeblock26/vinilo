@@ -1,3 +1,12 @@
+
+
+
+
+<img width="2243" height="701" alt="Neon Robot DJ Emblem" src="https://github.com/user-attachments/assets/37cace12-91aa-46e6-842a-df3e14b7a5e9" />
+
+
+
+
 # vinilo
 
 ![Node.js](https://img.shields.io/badge/node-%3E%3D18-339933?logo=node.js&logoColor=white)

@@ -1,0 +1,24 @@
+{
+  "name": "big-shooter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@discordjs/opus": "^0.10.0",
+    "@discordjs/voice": "^0.19.2",
+    "@snazzah/davey": "^0.1.11",
+    "discord.js": "^14.26.4",
+    "dotenv": "^17.4.2",
+    "libsodium-wrappers": "^0.8.4",
+    "sodium-native": "^5.1.0"
+  },
+  "allowScripts": {
+    "@discordjs/opus@0.10.0": true
+  }
+}

@@ -127,7 +127,7 @@ async function playSong(queue, song, seekSeconds = 0) {
   try {
     console.log(`🎵 Obteniendo URL para: ${song.title}`);
     const streamUrl = song.isFile ? song.url : await getStreamUrl(song.url);
-    console.log(`✅ URL obtenida, iniciando ffmpeg...`);
+    console.log(` URL obtenida, iniciando ffmpeg...`);
 
     const ffmpegArgs = buildFFmpegArgs(streamUrl, queue.filter, queue.volume, seekSeconds);
     const ffmpeg = spawn('ffmpeg', ffmpegArgs, { stdio: ['ignore', 'pipe', 'pipe'] });
@@ -157,7 +157,7 @@ async function playSong(queue, song, seekSeconds = 0) {
   } catch (err) {
     console.error('Error al reproducir:', err);
     if (queue.textChannel) {
-      queue.textChannel.send(`❌ Error al reproducir **${song.title}**: ${err.message}`);
+      queue.textChannel.send(` Error al reproducir **${song.title}**: ${err.message}`);
     }
     advanceQueue(queue);
   }
@@ -183,7 +183,7 @@ function advanceQueue(queue) {
     queue.current = null;
     queue.playing = false;
     if (queue.textChannel) {
-      queue.textChannel.send('✅ Cola vacía, saliendo del canal de voz.');
+      queue.textChannel.send(' Cola vacía, saliendo del canal de voz.');
     }
     setTimeout(() => {
       try { if (queue.connection) queue.connection.destroy(); } catch (e) {}

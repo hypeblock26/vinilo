@@ -67,8 +67,7 @@ module.exports = {
     const { queued, position } = await joinAndPlay(interaction, song);
 
     if (queued) {
-      // position = queue.songs.length después del push
-      // actual = #1, cola empieza en #2
+     
       const displayPos = position + 1;
       const embed = new EmbedBuilder()
         .setColor(0x5865F2)

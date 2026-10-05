@@ -96,8 +96,7 @@ Each command lives in its own file under `commands/`:
 
 
 
-##🤝 Contributing
-
+## 🤝 Contributing
 [Fork the repository](https://github.com/hypeblock26/vinilo/fork)
 
 1. Clone your fork: `git clone https://github.com/your-username/vinilo.git`

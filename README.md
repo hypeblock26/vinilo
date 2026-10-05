@@ -114,3 +114,5 @@ Each command lives in its own file under `commands/`:
 4. Commit your changes: `git commit -m "Add my new feature"`
 5. Push to the branch: `git push origin my-new-feature`
 6. Submit a pull request
+   
+##Translators:

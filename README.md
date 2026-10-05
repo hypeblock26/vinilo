@@ -93,3 +93,16 @@ Each command lives in its own file under `commands/`:
 ├── .env.example     Example environment variables
 └── package.json
 ```
+
+
+
+##🤝 Contributing
+
+[Fork the repository](https://github.com/hypeblock26/vinilo/fork)
+
+1. Clone your fork: `git clone https://github.com/your-username/vinilo.git`
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Stage changes: `git add .`
+4. Commit your changes: `git commit -m "Add my new feature"`
+5. Push to the branch: `git push origin my-new-feature`
+6. Submit a pull request

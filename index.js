@@ -24,7 +24,7 @@ for (const file of commandFiles) {
 }
 
 client.once('ready', () => {
-  console.log(`✅ Bot listo como ${client.user.tag}`);
+  console.log(` listo como ${client.user.tag}`);
 });
 
 client.on('interactionCreate', async (interaction) => {
@@ -38,7 +38,7 @@ client.on('interactionCreate', async (interaction) => {
   } catch (err) {
     console.error(err);
     try {
-      const msg = { content: '❌ Ocurrió un error al ejecutar el comando.', flags: 64 };
+      const msg = { content: ' Ocurrió un error al ejecutar el comando.', flags: 64 };
       if (interaction.replied || interaction.deferred) {
         await interaction.followUp(msg);
       } else {

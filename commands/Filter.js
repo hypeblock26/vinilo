@@ -42,7 +42,7 @@ module.exports = {
     const queue = getQueue(interaction.guildId);
 
     if (!queue || !queue.current) {
-      return interaction.reply({ content: '❌ No hay ninguna canción reproduciéndose.', ephemeral: true });
+      return interaction.reply({ content: ' No hay ninguna canción reproduciéndose.', ephemeral: true });
     }
 
     await interaction.deferReply();
@@ -52,19 +52,19 @@ module.exports = {
 
     const currentSong = queue.current;
 
-    // Calcular cuántos segundos han pasado
+    
     const elapsed = queue.resource
       ? Math.floor(queue.resource.playbackDuration / 1000)
       : 0;
 
-    // Remover listener de Idle temporalmente
+   
     queue.player.removeAllListeners(AudioPlayerStatus.Idle);
 
     try { if (queue._ffmpegProc) queue._ffmpegProc.kill('SIGKILL'); } catch (e) {}
     queue.player.stop(true);
     await new Promise(res => setTimeout(res, 200));
 
-    // Restaurar listener de Idle
+    
     queue.player.on(AudioPlayerStatus.Idle, () => advanceQueue(queue));
 
     queue.playing = true;

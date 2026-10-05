@@ -33,9 +33,8 @@ module.exports = {
 
     const loopIcon = queue.loop === 'song' ? '🔂' : queue.loop === 'queue' ? '🔁' : '';
 
-    // Posicion global: actual = #1, cola empieza en #2
     const songsList = pageSongs.map((s, i) => {
-      const globalPos = start + i + 2; // +2 porque #1 es la actual
+      const globalPos = start + i + 2; 
       return `\`#${globalPos}\` [${s.title}](${s.url}) | \`${s.duration}\` | ${s.requestedBy}`;
     }).join('\n');
 

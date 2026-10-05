@@ -5,13 +5,14 @@
 ![Slash commands](https://img.shields.io/badge/slash%20commands-supported-5865F2)
 ![yt-dlp](https://img.shields.io/badge/powered%20by-yt--dlp-FF0000?logo=youtube&logoColor=white)
 ![FFmpeg](https://img.shields.io/badge/FFmpeg-required-007808?logo=ffmpeg&logoColor=white)
-![Music](https://img.shields.io/badge/type-music%20bot-1DB954?logo=spotify&logoColor=white)
+![YouTube](https://img.shields.io/badge/YouTube-supported-FF0000?logo=youtube&logoColor=white)
+![SoundCloud](https://img.shields.io/badge/SoundCloud-supported-FF5500?logo=soundcloud&logoColor=white)
 
 A Discord music bot with a playback queue, slash commands, and audio streaming through yt-dlp.
 
 ## Features
 
-- Plays audio from YouTube in voice channels
+- Plays audio from YouTube and SoundCloud in voice channels
 - Queue management: skip, skip to, previous, remove, insert, shuffle, loop, clear
 - Playback controls: pause, resume, stop, seek, volume, audio filters
 - Lyrics lookup

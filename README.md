@@ -7,7 +7,7 @@
 
 
 
-# vinilo
+# ᴠɪɴɪʟᴏ
 
 ![Node.js](https://img.shields.io/badge/node-%3E%3D18-339933?logo=node.js&logoColor=white)
 ![Discord](https://img.shields.io/badge/Discord-bot-5865F2?logo=discord&logoColor=white)

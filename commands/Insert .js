@@ -66,7 +66,6 @@ module.exports = {
       return interaction.editReply(`❌ No se encontró la canción: ${err.message}`);
     }
 
-    // #1 = actual, #2 = primera en cola (index 0), #3 = segunda (index 1), etc.
     const insertIndex = Math.min(pos - 2, queue.songs.length);
     queue.songs.splice(insertIndex, 0, song);
 

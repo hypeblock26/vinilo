@@ -1,8 +1,8 @@
 
 
 
+<img width="1843" height="576" alt="iop" src="https://github.com/user-attachments/assets/03fe628e-39c9-4d69-bb23-6040134e0c37" />
 
-<img width="2243" height="701" alt="Neon Robot DJ Emblem" src="https://github.com/user-attachments/assets/37cace12-91aa-46e6-842a-df3e14b7a5e9" />
 
 
 

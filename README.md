@@ -1,10 +1,5 @@
 
-
-
-<img width="1254" height="1254" alt="Minimal Dark Soundwave Emblem" src="https://github.com/user-attachments/assets/f8babcac-6b68-4da5-8873-92a31aab28fb" />
-
-
-
+<img width="1843" height="576" alt="iop" src="https://github.com/user-attachments/assets/03fe628e-39c9-4d69-bb23-6040134e0c37" />
 
 
 # ᴠɪɴɪʟᴏ
